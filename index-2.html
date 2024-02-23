@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style-2.css" />
   </head>
-  <body class="text-bg-dark">
+  <body data-bs-theme="dark" class="text-bg-dark">
     <!-- INIZIO PAGINA -->
     <header>
       <img width="170x" src="./assets/Netflix-assets/assets/netflix_logo.png" alt="" />
@@ -24,17 +24,52 @@
         <div><h1 class="_h1">Edit Profile</h1></div>
         <hr />
       </div>
-    <div class="row">
-        <div>
-            <img class="col-3 rounded" src="./assets/Netflix-assets/assets/avatar.png" alt="">
-        </div>
-        <div class="col-3">
-            <button type="button" class="btn btn-secondary btn-sm">Strive Student</button>
-        </div>
-
-    </div>
-        
+      <div>
+        <div class="row">
+          <div class="col-2">
+            <img class="col-12 rounded" src="./assets/Netflix-assets/assets/avatar.png" alt="" />
           </div>
+          <div class="d-flex column col-10">
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm">Strive Student</button>
+              <p class="mt-4 _opacity mb-0">Language:</p>
+              <div class="btn-group">
+                <button
+                  class="btn bg-dark btn-outline-light btn-secondary btn-sm dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </button>
+                <ul class="dropdown-menu">
+                  ...
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offset-2">
+          <hr />
+          <h3>Maturit Settings:</h3>
+          <button type="button" class="mt-2 btn btn-secondary btn-sm">ALL MATURITY RATINGS</button>
+          <p class="fs-6 fw-lighter mt-2">Shows titles of all maturity ratings for this profile.</p>
+          <button
+            type="button"
+            class="font-monospace _lt-spacing _opacity bg-dark btn-outline-light btn btn-secondary btn-sm"
+          >
+            EDIT
+          </button>
+        </div>
+        <div class="offset-2">
+          <hr />
+          <h3>Autoplay controls</h3>
+          <p class="fs-6 fw-lighter mt-2">
+            <i class="bi bi-check2-square"></i> Autoplay next episode in a series on all devices.
+          </p>
+          <p class="fs-6 fw-lighter mt-2">
+            <i class="bi bi-check2-square"></i> Autoplay previews while browsing on all devies.
+          </p>
         </div>
       </div>
     </div>

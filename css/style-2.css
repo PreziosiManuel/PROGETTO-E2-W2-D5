@@ -9,3 +9,18 @@
 ._img-avatar {
   width: 150px;
 }
+._opacity {
+  opacity: 0.75;
+}
+.btn {
+  &:hover {
+    color: white;
+  }
+}
+.hr {
+  color: white;
+  background-color: white;
+}
+._lt-spacing {
+  letter-spacing: 0.2rem;
+}

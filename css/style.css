@@ -27,3 +27,8 @@ i {
   color: white;
   opacity: 0.75;
 }
+.btn {
+  &:hover {
+    color: white;
+  }
+}
